@@ -2,6 +2,9 @@
 
 set -euo pipefail
 
+export BUILDKITE_CLEAN_CHECKOUT="false"
+export BUILDKITE_GIT_CLEAN_FLAGS=""
+
 if [[ -n ${BUILDKITE_PLUGIN_SKIP_CHECKOUT_CD+x} ]]
 then
   echo "--- Setting checkout directory to $BUILDKITE_PLUGIN_SKIP_CHECKOUT_CD"
