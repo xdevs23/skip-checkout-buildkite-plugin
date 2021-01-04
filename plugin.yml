@@ -1,6 +1,6 @@
-name: Skip Checkout
+name: Skip Checkout (originally by reidab)
 description: Skips the default Buildkite and optionally changes to a specified directory
-author: https://github.com/reidab
+author: https://github.com/xdevs23
 requirements: []
 configuration:
   properties:
