@@ -1,5 +1,5 @@
-name: Skip Checkout (originally by reidab)
-description: Skips the default Buildkite and optionally changes to a specified directory
+name: Skip Clean (originally by reidab)
+description: Skips cleaning on checkout
 author: https://github.com/xdevs23
 requirements: []
 configuration:
