@@ -3,3 +3,5 @@
 set -euo pipefail
 
 echo "--- Skipping checkout"
+export BUILDKITE_CLEAN_CHECKOUT="false"
+export BUILDKITE_GIT_CLEAN_FLAGS=""
